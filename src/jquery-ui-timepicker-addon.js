@@ -378,7 +378,7 @@
 		*/
 		_injectTimePicker: function () {
 			var $dp = this.inst.dpDiv,
-				o = this.inst.settings,
+				o = this._defaults,
 				tp_inst = this,
 				litem = '',
 				uitem = '',
